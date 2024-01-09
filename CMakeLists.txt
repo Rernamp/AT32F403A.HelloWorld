@@ -34,7 +34,7 @@ target_link_libraries(CommonCode INTERFACE
 )
 
 target_sources(CommonCode INTERFACE
-${CMAKE_CURRENT_SOURCE_DIR}/Dependencies/AT32F403A_407_Firmware_Library/libraries/cmsis/cm4/device_support/startup/gcc/startup_at32f403a_407.s
+${CMAKE_CURRENT_SOURCE_DIR}/Dependencies/AT32F403A.Library/Src/AT32F403A.Library/libraries/cmsis/cm4/device_support/startup/gcc/startup_at32f403a_407.s
 )
 
 
@@ -49,4 +49,4 @@ PRIVATE
     AT32F403ACGU7
 )
 
-gcc_add_linker_script(AT32F403A.HelloWorld PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Dependencies/AT32F403A_407_Firmware_Library/libraries/cmsis/cm4/device_support/startup/gcc/linker/AT32F403AxG_FLASH.ld")
+gcc_add_linker_script(AT32F403A.HelloWorld PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Dependencies/AT32F403A.Library/Src/AT32F403A.Library/libraries/cmsis/cm4/device_support/startup/gcc/linker/AT32F403AxG_FLASH.ld")

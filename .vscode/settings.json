@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "at32f403a_407.h": "c"
-    }
+        "at32f403a_407.h": "c",
+        "at32f403a_407_board.h": "c"
+    },
+    "cortex-debug.openocdPath": "C:\\Program Files (x86)\\AT32IDE\\OpenOCD\\bin\\openocd.exe",
 }
